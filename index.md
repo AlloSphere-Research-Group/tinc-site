@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## TINC (Toolkit for Interactive Computation
 
 You can use the [editor on GitHub](https://github.com/AlloSphere-Research-Group/tinc-site/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
