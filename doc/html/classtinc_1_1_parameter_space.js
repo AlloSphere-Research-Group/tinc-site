@@ -2,6 +2,7 @@ var classtinc_1_1_parameter_space =
 [
     [ "ParameterSpace", "classtinc_1_1_parameter_space.html#a4eac1c93a11e44710a80871a60352d51", null ],
     [ "~ParameterSpace", "classtinc_1_1_parameter_space.html#aa765ad872e5d8e42ebe48fd4e50a5b36", null ],
+    [ "ParameterSpace", "classtinc_1_1_parameter_space.html#a56d9fd5f1a3518361dcf1141dcbb2fcc", null ],
     [ "cleanDataDirectories", "classtinc_1_1_parameter_space.html#a16b5df6415e72aac8fa4ee95d5e55eda", null ],
     [ "clear", "classtinc_1_1_parameter_space.html#a6291e9e65dd81076f683ded7c61861bd", null ],
     [ "createDataDirectories", "classtinc_1_1_parameter_space.html#aecf7519db811c2f2625c57aa8f307800", null ],
@@ -13,6 +14,7 @@ var classtinc_1_1_parameter_space =
     [ "incrementIndeces", "classtinc_1_1_parameter_space.html#a19ccf4a27c6b29ff8fc66acb4810738e", null ],
     [ "isFilesystemDimension", "classtinc_1_1_parameter_space.html#abc7129db9662be326d6d9d453e55bf31", null ],
     [ "newDimension", "classtinc_1_1_parameter_space.html#a3891d93a0d1b31ee9199230a3c373f18", null ],
+    [ "operator=", "classtinc_1_1_parameter_space.html#ada1dc0f4292488a50447a5d75b329e2b", null ],
     [ "readDimensionsInNetCDFFile", "classtinc_1_1_parameter_space.html#a96ded8323e3fc92c8aaa7ce2975a5d05", null ],
     [ "readFromNetCDF", "classtinc_1_1_parameter_space.html#a6723d1cfd33a719a2344abc6ea4a6305", null ],
     [ "registerDimension", "classtinc_1_1_parameter_space.html#ad16de81b95a84fcee98d4075f373d6a3", null ],
@@ -24,7 +26,7 @@ var classtinc_1_1_parameter_space =
     [ "stopSweep", "classtinc_1_1_parameter_space.html#a2bb07aff7b75ad55ec469a7461aeac30", null ],
     [ "sweep", "classtinc_1_1_parameter_space.html#a7b5d694d2c05487a19eb005e278ff799", null ],
     [ "sweepAsync", "classtinc_1_1_parameter_space.html#adfa06081a63e88a1c7cc104e953dd0a0", null ],
-    [ "updateParameterSpace", "classtinc_1_1_parameter_space.html#a1a8cedb1198bfc7362d1a06afd6e7060", null ],
+    [ "updateParameterSpace", "classtinc_1_1_parameter_space.html#a07b4e4368dc01a5c5fb0d491114c5cc7", null ],
     [ "writeToNetCDF", "classtinc_1_1_parameter_space.html#ab0acb9eae3b9ebd58fc2c343c9ddfe6b", null ],
     [ "generateRelativeRunPath", "classtinc_1_1_parameter_space.html#afb2e14ef156df31f54a1aaa925f6b76f", null ],
     [ "mAsyncProcessingThread", "classtinc_1_1_parameter_space.html#aba766d96972a95ce68866efb24264b6e", null ],
@@ -37,8 +39,7 @@ var classtinc_1_1_parameter_space =
     [ "mSweepRunning", "classtinc_1_1_parameter_space.html#aafc4de33106a69718278fc56acbb4791", null ],
     [ "onDimensionRegister", "classtinc_1_1_parameter_space.html#a65f1491e6371cf0f6676b80febb24cac", null ],
     [ "onSweepProcess", "classtinc_1_1_parameter_space.html#a9f50a5b25ac8143aa9a407ed58ffb96d", null ],
-    [ "onValueChange", "classtinc_1_1_parameter_space.html#a30588d5825b2a358bcc6c3ebbd89cceb", null ],
+    [ "onValueChange", "classtinc_1_1_parameter_space.html#a86017845463501c42ceba7def62334e8", null ],
     [ "parameterNameMap", "classtinc_1_1_parameter_space.html#a6964813df87007432de93b19b2051b8b", null ],
-    [ "rootPath", "classtinc_1_1_parameter_space.html#a09fa4d5596ab4a8563cfa6ca2060ba70", null ],
-    [ "updateComputationSettings", "classtinc_1_1_parameter_space.html#a3d102a91be5cd6a54aabedf696ff19df", null ]
+    [ "rootPath", "classtinc_1_1_parameter_space.html#a09fa4d5596ab4a8563cfa6ca2060ba70", null ]
 ];

@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 : <a class="el" href="classtinc_1_1_parameter_space_dimension.html#a15c33a5c186ef23ae41c9e81a64584a6">tinc::ParameterSpaceDimension</a>
 </li>
 <li>ParameterSpace()
-: <a class="el" href="classtinc_1_1_parameter_space.html#a4eac1c93a11e44710a80871a60352d51">tinc::ParameterSpace</a>
+: <a class="el" href="classtinc_1_1_parameter_space.html#a56d9fd5f1a3518361dcf1141dcbb2fcc">tinc::ParameterSpace</a>
 </li>
 <li>ParameterSpaceDimension()
 : <a class="el" href="classtinc_1_1_parameter_space_dimension.html#a218fedf1107bfd1426b98203cb64dbd9">tinc::ParameterSpaceDimension</a>
@@ -108,13 +108,13 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 : <a class="el" href="classtinc_1_1_tinc_protocol.html#a486060d648039e5097a8ae1bab391c01">tinc::TincProtocol</a>
 </li>
 <li>parametersToConfig()
-: <a class="el" href="classtinc_1_1_script_processor.html#ac084db0a046f44d0a3d2ec7f7086fc28">tinc::ScriptProcessor</a>
+: <a class="el" href="classtinc_1_1_processor_script.html#a3e31c41344e9316f76a37319b50520cc">tinc::ProcessorScript</a>
 </li>
 <li>parseFile()
 : <a class="el" href="classtinc_1_1_disk_buffer.html#a3678197ae7f33f8f3ed88d0488e6c976">tinc::DiskBuffer&lt; DataType &gt;</a>
+, <a class="el" href="classtinc_1_1_disk_buffer_json.html#aec4c78fe376118352921547b3bf2e956">tinc::DiskBufferJson</a>
+, <a class="el" href="classtinc_1_1_disk_buffer_net_c_d_f_double.html#a1118b5da74a64f18ba9e2e4d564799de">tinc::DiskBufferNetCDFDouble</a>
 , <a class="el" href="classtinc_1_1_image_disk_buffer.html#a33ce07c5a39c28f244eba77bc3e6c52b">tinc::ImageDiskBuffer</a>
-, <a class="el" href="classtinc_1_1_json_disk_buffer.html#a128edcb0a9f9606baf7037b66364b4ef">tinc::JsonDiskBuffer</a>
-, <a class="el" href="classtinc_1_1_net_c_d_f_disk_buffer_double.html#a569ecc7694b03acf8d702e550a3ca850">tinc::NetCDFDiskBufferDouble</a>
 </li>
 <li>previousLayer()
 : <a class="el" href="classtinc_1_1_slicing_atom_renderer.html#a02cfe3614287cac2e4ca636f95ffc666">tinc::SlicingAtomRenderer</a>
@@ -123,12 +123,12 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 : <a class="el" href="classtinc_1_1_v_a_s_p_reader.html#ad1654f03393030e2f2d2a56e7931e9da">tinc::VASPReader</a>
 </li>
 <li>process()
-: <a class="el" href="classtinc_1_1_computation_chain.html#abe003d96d543704e030b3843dbc40f2f">tinc::ComputationChain</a>
-, <a class="el" href="classtinc_1_1_cpp_processor.html#a1730c9031d88f0a4f31dfcdcacd42d74">tinc::CppProcessor</a>
-, <a class="el" href="classtinc_1_1_deferred_computation.html#ac9e9219f8f9bb1f1afce73a9d217b308">tinc::DeferredComputation&lt; DataType &gt;</a>
+: <a class="el" href="classtinc_1_1_deferred_computation.html#ac9e9219f8f9bb1f1afce73a9d217b308">tinc::DeferredComputation&lt; DataType &gt;</a>
 , <a class="el" href="classtinc_1_1_processor.html#a43fb06180d85b7f0f73b49a13845ac75">tinc::Processor</a>
 , <a class="el" href="classtinc_1_1_processor_async_wrapper.html#a300e1b17a3c2475ca3621f80faf220b1">tinc::ProcessorAsyncWrapper</a>
-, <a class="el" href="classtinc_1_1_script_processor.html#aaeddfe1dfb23e0297f6c55f34d16c46c">tinc::ScriptProcessor</a>
+, <a class="el" href="classtinc_1_1_processor_cpp.html#aa9b188cfe8a57ec8c3d42d765f5d8f35">tinc::ProcessorCpp</a>
+, <a class="el" href="classtinc_1_1_processor_graph.html#a0a1a857010c1b92d908f3d0e019249f4">tinc::ProcessorGraph</a>
+, <a class="el" href="classtinc_1_1_processor_script.html#afd894d78c4f855964e1e8510a331bd48">tinc::ProcessorScript</a>
 </li>
 <li>processAsync()
 : <a class="el" href="classtinc_1_1_deferred_computation.html#a6e103cc101f51edcf983d4b920c6e6f6">tinc::DeferredComputation&lt; DataType &gt;</a>
@@ -182,8 +182,17 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 <li>ProcessorAsyncWrapper()
 : <a class="el" href="classtinc_1_1_processor_async_wrapper.html#a3bb887370bc575352cb3818f16d5d992">tinc::ProcessorAsyncWrapper</a>
 </li>
+<li>ProcessorCpp()
+: <a class="el" href="classtinc_1_1_processor_cpp.html#a3b6027f642966aa3eff0c4bc63b7b8d0">tinc::ProcessorCpp</a>
+</li>
+<li>ProcessorGraph()
+: <a class="el" href="classtinc_1_1_processor_graph.html#a96a01e8a909988dd6a61f8169f7eb6d7">tinc::ProcessorGraph</a>
+</li>
 <li>processors()
-: <a class="el" href="classtinc_1_1_computation_chain.html#a63bf9dccca988dd88ba8b9370d480a49">tinc::ComputationChain</a>
+: <a class="el" href="classtinc_1_1_processor_graph.html#a0ccbaec1b18c8ae5687051bacac11bf9">tinc::ProcessorGraph</a>
+</li>
+<li>ProcessorScript()
+: <a class="el" href="classtinc_1_1_processor_script.html#a292ea9a5bbba041881ffb5278051c918">tinc::ProcessorScript</a>
 </li>
 <li>processRegisterDataPool()
 : <a class="el" href="classtinc_1_1_tinc_protocol.html#ae614034d696a84d2d49c0c9b3b353907">tinc::TincProtocol</a>

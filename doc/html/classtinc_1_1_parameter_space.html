@@ -100,6 +100,9 @@ $(document).ready(function(){initNavTree('classtinc_1_1_parameter_space.html',''
 </div><!--header-->
 <div class="contents">
 
+<p>The <a class="el" href="classtinc_1_1_parameter_space.html" title="The ParameterSpace class contains a set of ParameterSpaceDimensions and organizes access to them.">ParameterSpace</a> class contains a set of ParameterSpaceDimensions and organizes access to them.  
+ <a href="classtinc_1_1_parameter_space.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for tinc::ParameterSpace:</div>
@@ -117,8 +120,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4eac1c93a11e44710a80871a60352d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa765ad872e5d8e42ebe48fd4e50a5b36"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#aa765ad872e5d8e42ebe48fd4e50a5b36">~ParameterSpace</a> ()</td></tr>
 <tr class="separator:aa765ad872e5d8e42ebe48fd4e50a5b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56d9fd5f1a3518361dcf1141dcbb2fcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a56d9fd5f1a3518361dcf1141dcbb2fcc">ParameterSpace</a> (const <a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> &amp;other)=delete</td></tr>
+<tr class="separator:a56d9fd5f1a3518361dcf1141dcbb2fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada1dc0f4292488a50447a5d75b329e2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#ada1dc0f4292488a50447a5d75b329e2b">operator=</a> (const <a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> &amp;other)=delete</td></tr>
+<tr class="separator:ada1dc0f4292488a50447a5d75b329e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c3e1cca03e0941159d2fe7c99d6d7f2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classtinc_1_1_parameter_space_dimension.html">ParameterSpaceDimension</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a1c3e1cca03e0941159d2fe7c99d6d7f2">getDimension</a> (std::string name)</td></tr>
-<tr class="memdesc:a1c3e1cca03e0941159d2fe7c99d6d7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a registered <a class="el" href="classtinc_1_1_parameter_space_dimension.html" title="The ParameterSpaceDimension class maps parameter values to string ids.">ParameterSpaceDimension</a> by name.  <a href="classtinc_1_1_parameter_space.html#a1c3e1cca03e0941159d2fe7c99d6d7f2">More...</a><br /></td></tr>
+<tr class="memdesc:a1c3e1cca03e0941159d2fe7c99d6d7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a registered <a class="el" href="classtinc_1_1_parameter_space_dimension.html" title="The ParameterSpaceDimension class provides a discrete dimension with possible values.">ParameterSpaceDimension</a> by name.  <a href="classtinc_1_1_parameter_space.html#a1c3e1cca03e0941159d2fe7c99d6d7f2">More...</a><br /></td></tr>
 <tr class="separator:a1c3e1cca03e0941159d2fe7c99d6d7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3891d93a0d1b31ee9199230a3c373f18"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classtinc_1_1_parameter_space_dimension.html">ParameterSpaceDimension</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a3891d93a0d1b31ee9199230a3c373f18">newDimension</a> (std::string name, <a class="el" href="classtinc_1_1_parameter_space_dimension.html#a84d9687a0c3e05f82af46f6311f4ccf9">ParameterSpaceDimension::RepresentationType</a> type=<a class="el" href="classtinc_1_1_parameter_space_dimension.html#a84d9687a0c3e05f82af46f6311f4ccf9a5df559352eda69a5ea9098a6aabaa27d">ParameterSpaceDimension::VALUE</a>, al::DiscreteParameterValues::Datatype datatype=al::DiscreteParameterValues::FLOAT)</td></tr>
 <tr class="memdesc:a3891d93a0d1b31ee9199230a3c373f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">create and register a new dimension for this parameter space  <a href="classtinc_1_1_parameter_space.html#a3891d93a0d1b31ee9199230a3c373f18">More...</a><br /></td></tr>
@@ -175,6 +182,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a96ded8323e3fc92c8aaa7ce2975a5d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read dimensions from parameter space netcdf file.  <a href="classtinc_1_1_parameter_space.html#a96ded8323e3fc92c8aaa7ce2975a5d05">More...</a><br /></td></tr>
 <tr class="separator:a96ded8323e3fc92c8aaa7ce2975a5d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0954ebe26d22e325212c12cb0a5b3508"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a0954ebe26d22e325212c12cb0a5b3508">setCurrentPathTemplate</a> (std::string pathTemplate)</td></tr>
+<tr class="memdesc:a0954ebe26d22e325212c12cb0a5b3508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set path template.  <a href="classtinc_1_1_parameter_space.html#a0954ebe26d22e325212c12cb0a5b3508">More...</a><br /></td></tr>
 <tr class="separator:a0954ebe26d22e325212c12cb0a5b3508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37877979b521a3723a250abb764adc5c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a37877979b521a3723a250abb764adc5c">resolveFilename</a> (std::string fileTemplate)</td></tr>
 <tr class="memdesc:a37877979b521a3723a250abb764adc5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">resolve filename template according to current parameter values  <a href="classtinc_1_1_parameter_space.html#a37877979b521a3723a250abb764adc5c">More...</a><br /></td></tr>
@@ -190,17 +198,16 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a09fa4d5596ab4a8563cfa6ca2060ba70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filesystem root path for parameter space.  <a href="classtinc_1_1_parameter_space.html#a09fa4d5596ab4a8563cfa6ca2060ba70">More...</a><br /></td></tr>
 <tr class="separator:a09fa4d5596ab4a8563cfa6ca2060ba70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6964813df87007432de93b19b2051b8b"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a6964813df87007432de93b19b2051b8b">parameterNameMap</a></td></tr>
+<tr class="memdesc:a6964813df87007432de93b19b2051b8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">map names provided to <a class="el" href="classtinc_1_1_parameter_space.html#a1c3e1cca03e0941159d2fe7c99d6d7f2" title="Get a registered ParameterSpaceDimension by name.">getDimension()</a> to internal data names  <a href="classtinc_1_1_parameter_space.html#a6964813df87007432de93b19b2051b8b">More...</a><br /></td></tr>
 <tr class="separator:a6964813df87007432de93b19b2051b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb2e14ef156df31f54a1aaa925f6b76f"><td class="memItemLeft" align="right" valign="top">std::function&lt; std::string(std::map&lt; std::string, size_t &gt;, <a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#afb2e14ef156df31f54a1aaa925f6b76f">generateRelativeRunPath</a></td></tr>
+<tr class="memdesc:afb2e14ef156df31f54a1aaa925f6b76f"><td class="mdescLeft">&#160;</td><td class="mdescRight">function that generated relative paths according to current values.  <a href="classtinc_1_1_parameter_space.html#afb2e14ef156df31f54a1aaa925f6b76f">More...</a><br /></td></tr>
 <tr class="separator:afb2e14ef156df31f54a1aaa925f6b76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f50a5b25ac8143aa9a407ed58ffb96d"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(double progress)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a9f50a5b25ac8143aa9a407ed58ffb96d">onSweepProcess</a></td></tr>
 <tr class="memdesc:a9f50a5b25ac8143aa9a407ed58ffb96d"><td class="mdescLeft">&#160;</td><td class="mdescRight">onSweepProcess is called after a sample completes processing as part of a sweep  <a href="classtinc_1_1_parameter_space.html#a9f50a5b25ac8143aa9a407ed58ffb96d">More...</a><br /></td></tr>
 <tr class="separator:a9f50a5b25ac8143aa9a407ed58ffb96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30588d5825b2a358bcc6c3ebbd89cceb"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(float oldValue, <a class="el" href="classtinc_1_1_parameter_space_dimension.html">ParameterSpaceDimension</a> *changedDimension, <a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> *ps)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a30588d5825b2a358bcc6c3ebbd89cceb">onValueChange</a></td></tr>
-<tr class="memdesc:a30588d5825b2a358bcc6c3ebbd89cceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback when the value in any particular dimension changes.  <a href="classtinc_1_1_parameter_space.html#a30588d5825b2a358bcc6c3ebbd89cceb">More...</a><br /></td></tr>
-<tr class="separator:a30588d5825b2a358bcc6c3ebbd89cceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d102a91be5cd6a54aabedf696ff19df"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(float oldValue, <a class="el" href="classtinc_1_1_parameter_space_dimension.html">ParameterSpaceDimension</a> *changedDimension, <a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> *ps)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a3d102a91be5cd6a54aabedf696ff19df">updateComputationSettings</a></td></tr>
-<tr class="separator:a3d102a91be5cd6a54aabedf696ff19df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86017845463501c42ceba7def62334e8"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="classtinc_1_1_parameter_space_dimension.html">ParameterSpaceDimension</a> *changedDimension, <a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> *ps)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a86017845463501c42ceba7def62334e8">onValueChange</a></td></tr>
+<tr class="separator:a86017845463501c42ceba7def62334e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65f1491e6371cf0f6676b80febb24cac"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="classtinc_1_1_parameter_space_dimension.html">ParameterSpaceDimension</a> *changedDimension, <a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> *ps, al::Socket *src)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a65f1491e6371cf0f6676b80febb24cac">onDimensionRegister</a></td></tr>
 <tr class="separator:a65f1491e6371cf0f6676b80febb24cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9716b0389d31f61dfecb45e713dad3af"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_id_object.html#a9716b0389d31f61dfecb45e713dad3af">modified</a> = []() {}</td></tr>
@@ -208,9 +215,9 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a1a8cedb1198bfc7362d1a06afd6e7060"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a1a8cedb1198bfc7362d1a06afd6e7060">updateParameterSpace</a> (float oldValue, <a class="el" href="classtinc_1_1_parameter_space_dimension.html">ParameterSpaceDimension</a> *ps)</td></tr>
-<tr class="memdesc:a1a8cedb1198bfc7362d1a06afd6e7060"><td class="mdescLeft">&#160;</td><td class="mdescRight">update current position to value in dimension ps  <a href="classtinc_1_1_parameter_space.html#a1a8cedb1198bfc7362d1a06afd6e7060">More...</a><br /></td></tr>
-<tr class="separator:a1a8cedb1198bfc7362d1a06afd6e7060"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b4e4368dc01a5c5fb0d491114c5cc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtinc_1_1_parameter_space.html#a07b4e4368dc01a5c5fb0d491114c5cc7">updateParameterSpace</a> (<a class="el" href="classtinc_1_1_parameter_space_dimension.html">ParameterSpaceDimension</a> *ps)</td></tr>
+<tr class="memdesc:a07b4e4368dc01a5c5fb0d491114c5cc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">update current position to value in dimension ps  <a href="classtinc_1_1_parameter_space.html#a07b4e4368dc01a5c5fb0d491114c5cc7">More...</a><br /></td></tr>
+<tr class="separator:a07b4e4368dc01a5c5fb0d491114c5cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -231,11 +238,13 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a166ebabdda2ee686cc8f31ae2c9035da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00048">48</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<div class="textblock"><p>The <a class="el" href="classtinc_1_1_parameter_space.html" title="The ParameterSpace class contains a set of ParameterSpaceDimensions and organizes access to them.">ParameterSpace</a> class contains a set of ParameterSpaceDimensions and organizes access to them. </p>
+<p>Parameter spaces can be linked to specific directories in the file system. This can be useful to locate data according to paramter values. For example when the data is a result of a parameter sweep that generated multiple directories. See <a class="el" href="classtinc_1_1_parameter_space.html#a0954ebe26d22e325212c12cb0a5b3508" title="Set path template.">setCurrentPathTemplate()</a> and generateRelativeRunPath for more information. </p>
+
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00057">57</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4eac1c93a11e44710a80871a60352d51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4eac1c93a11e44710a80871a60352d51">&#9670;&nbsp;</a></span>ParameterSpace()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eac1c93a11e44710a80871a60352d51">&#9670;&nbsp;</a></span>ParameterSpace() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -258,7 +267,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00050">50</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00059">59</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -275,6 +284,32 @@ Protected Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56d9fd5f1a3518361dcf1141dcbb2fcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d9fd5f1a3518361dcf1141dcbb2fcc">&#9670;&nbsp;</a></span>ParameterSpace() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tinc::ParameterSpace::ParameterSpace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -396,7 +431,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get a registered <a class="el" href="classtinc_1_1_parameter_space_dimension.html" title="The ParameterSpaceDimension class maps parameter values to string ids.">ParameterSpaceDimension</a> by name. </p>
+<p>Get a registered <a class="el" href="classtinc_1_1_parameter_space_dimension.html" title="The ParameterSpaceDimension class provides a discrete dimension with possible values.">ParameterSpaceDimension</a> by name. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td></td></tr>
@@ -550,6 +585,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ada1dc0f4292488a50447a5d75b329e2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada1dc0f4292488a50447a5d75b329e2b">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a>&amp; tinc::ParameterSpace::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a96ded8323e3fc92c8aaa7ce2975a5d05"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a96ded8323e3fc92c8aaa7ce2975a5d05">&#9670;&nbsp;</a></span>readDimensionsInNetCDFFile()</h2>
 
@@ -692,7 +753,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>resolved string</dd></dl>
-<p>You can use %% to delimit dimension names, e.g. "value_%%ParameterValue%%" where %ParameterValue%% will be replaced by the current value (in the correct representation as ID, VALUE or INDEX) of the dimension whose id is "ParameterValue". You can specify a different representation than the one set for the <a class="el" href="classtinc_1_1_parameter_space_dimension.html" title="The ParameterSpaceDimension class maps parameter values to string ids.">ParameterSpaceDimension</a> by adding it following a ':'. For example: "value_%%ParameterValue:INDEX%%" will replace "%%ParameterValue:INDEX%%" with the current index for ParameterValue. </p>
+<p>You can use %% to delimit dimension names, e.g. "value_%%ParameterValue%%" where %ParameterValue%% will be replaced by the current value (in the correct representation as ID, VALUE or INDEX) of the dimension whose id is "ParameterValue". You can specify a different representation than the one set for the <a class="el" href="classtinc_1_1_parameter_space_dimension.html" title="The ParameterSpaceDimension class provides a discrete dimension with possible values.">ParameterSpaceDimension</a> by adding it following a ':'. For example: "value_%%ParameterValue:INDEX%%" will replace "%%ParameterValue:INDEX%%" with the current index for ParameterValue. </p>
 
 </div>
 </div>
@@ -739,7 +800,16 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00209">209</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<p>Set path template. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pathTemplate</td><td>By default, the generateRelativePath() function will use this template to generate the path, but this path might be ignored if it is not used in the new <a class="el" href="classtinc_1_1_parameter_space.html#afb2e14ef156df31f54a1aaa925f6b76f" title="function that generated relative paths according to current values.">generateRelativeRunPath()</a> function. You must either call this function or set a generateRelativeRunPath function to have the parameter space linked to a location in the filesystem.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>See <a class="el" href="classtinc_1_1_parameter_space.html#a37877979b521a3723a250abb764adc5c" title="resolve filename template according to current parameter values">resolveFilename()</a> for information on how the template is resolved. </p>
+
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00238">238</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -869,8 +939,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1a8cedb1198bfc7362d1a06afd6e7060"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a8cedb1198bfc7362d1a06afd6e7060">&#9670;&nbsp;</a></span>updateParameterSpace()</h2>
+<a id="a07b4e4368dc01a5c5fb0d491114c5cc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07b4e4368dc01a5c5fb0d491114c5cc7">&#9670;&nbsp;</a></span>updateParameterSpace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -881,19 +951,9 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void tinc::ParameterSpace::updateParameterSpace </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>oldValue</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype"><a class="el" href="classtinc_1_1_parameter_space_dimension.html">ParameterSpaceDimension</a> *&#160;</td>
-          <td class="paramname"><em>ps</em>&#160;</td>
-        </tr>
-        <tr>
+          <td class="paramname"><em>ps</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -906,7 +966,6 @@ Protected Attributes</h2></td></tr>
 <p>update current position to value in dimension ps </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">oldValue</td><td>You should pass the previous value here. </td></tr>
     <tr><td class="paramname">ps</td><td>This function checks if new dataset directory needs a reload of parameter_space.nc and processes the parameter space changes </td></tr>
   </table>
   </dd>
@@ -958,9 +1017,11 @@ Protected Attributes</h2></td></tr>
 <div class="line">        std::string path = ps-&gt;resolveFilename(<a class="code" href="classtinc_1_1_parameter_space.html#ac72ad1e2d517ba1b4b5334ea5cb724ba">mCurrentPathTemplate</a>);</div>
 <div class="line">        <span class="keywordflow">return</span> al::File::conformPathToOS(path);</div>
 <div class="line">      }</div>
-</div><!-- fragment --><p>Only override this function if using a path template is insufficient. </p>
+</div><!-- fragment -->
+<p>function that generated relative paths according to current values. </p>
+<p>You must either set this function or use <a class="el" href="classtinc_1_1_parameter_space.html#a0954ebe26d22e325212c12cb0a5b3508" title="Set path template.">setCurrentPathTemplate()</a> to have the parameter space linked to a location in the filesystem. Only override this function if using a path template is insufficient. If this function is replaced, the path template will have noeffect unless it is specifically used in the new function. </p>
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00217">217</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00252">252</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -984,7 +1045,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00289">289</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00328">328</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1008,7 +1069,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00290">290</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00329">329</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1034,7 +1095,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Stores template to generate current path using <a class="el" href="classtinc_1_1_parameter_space.html#a37877979b521a3723a250abb764adc5c" title="resolve filename template according to current parameter values">resolveFilename()</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00287">287</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00326">326</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1058,7 +1119,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00284">284</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00323">323</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1130,7 +1191,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00295">295</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00334">334</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1154,7 +1215,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00292">292</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00331">331</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1172,8 +1233,9 @@ Protected Attributes</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">      [](ParameterSpaceDimension *changedDimension, <a class="code" href="classtinc_1_1_parameter_space.html#a4eac1c93a11e44710a80871a60352d51">ParameterSpace</a> *ps,</div>
 <div class="line">         al::Socket *src = <span class="keyword">nullptr</span>) {}</div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00267">267</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+</div><!-- fragment --><p>This callback is called when dimension metadata has changed or a dimension is added </p>
+
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00309">309</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1191,29 +1253,37 @@ Protected Attributes</h2></td></tr>
 
 <p>onSweepProcess is called after a sample completes processing as part of a sweep </p>
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00227">227</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00262">262</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a30588d5825b2a358bcc6c3ebbd89cceb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30588d5825b2a358bcc6c3ebbd89cceb">&#9670;&nbsp;</a></span>onValueChange</h2>
+<a id="a86017845463501c42ceba7def62334e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86017845463501c42ceba7def62334e8">&#9670;&nbsp;</a></span>onValueChange</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;void(float oldValue, <a class="el" href="classtinc_1_1_parameter_space_dimension.html">ParameterSpaceDimension</a> *changedDimension, <a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> *ps)&gt; tinc::ParameterSpace::onValueChange</td>
+          <td class="memname">std::function&lt;void(<a class="el" href="classtinc_1_1_parameter_space_dimension.html">ParameterSpaceDimension</a> *changedDimension, <a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> *ps)&gt; tinc::ParameterSpace::onValueChange</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">      [](float , ParameterSpaceDimension * ,</div>
-<div class="line">         <a class="code" href="classtinc_1_1_parameter_space.html#a4eac1c93a11e44710a80871a60352d51">ParameterSpace</a> *ps) {}</div>
-</div><!-- fragment -->
-<p>callback when the value in any particular dimension changes. </p>
-<p>You should use this callback whenever you need to know the specific dimension that has changed. For this reason, you should not update processor configurations from here, as this function will not be called, except when a particular dimension has changed </p>
+<div class="line">      [](ParameterSpaceDimension *changedDimension, <a class="code" href="classtinc_1_1_parameter_space.html#a4eac1c93a11e44710a80871a60352d51">ParameterSpace</a> *ps) {}</div>
+</div><!-- fragment --><pre class="fragment"> @brief callback when the value in any particular dimension changes.
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00255">255</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+ You can get the new and previous values through changedDimension.
+ The values are contained within the parameterMeta() object and you will
+ need to cast to the appropriate type, for example:
+</pre> <div class="fragment"><div class="line">   <span class="keywordtype">float</span> previous = <span class="keyword">dynamic_cast&lt;</span>Parameter</div>
+<div class="line"><span class="keyword">&gt;</span>(changedDimension-&gt;parameterMeta())</div>
+<div class="line">             -&gt;getPrevious();</div>
+<div class="line">   <span class="keywordtype">float</span> newValue = <span class="keyword">dynamic_cast&lt;</span>Parameter</div>
+<div class="line"><span class="keyword">&gt;</span>(changedDimension-&gt;parameterMeta())</div>
+<div class="line">             -&gt;get();</div>
+</div><!-- fragment --><p> You should use this callback whenever you need to know the specific dimension that has changed. For this reason, you should not update processor configurations from here, as this function will not be called, except when a particular dimension has changed. </p>
+
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00300">300</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1229,7 +1299,10 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00207">207</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<p>map names provided to <a class="el" href="classtinc_1_1_parameter_space.html#a1c3e1cca03e0941159d2fe7c99d6d7f2" title="Get a registered ParameterSpaceDimension by name.">getDimension()</a> to internal data names </p>
+<p>You can also use this map to display user friendly names when displaying parameters </p>
+
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00223">223</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1248,26 +1321,7 @@ Protected Attributes</h2></td></tr>
 <p>Filesystem root path for parameter space. </p>
 <p>This root path is where the root parameter space should be localted and should contain all data directories </p>
 
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00202">202</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a3d102a91be5cd6a54aabedf696ff19df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d102a91be5cd6a54aabedf696ff19df">&#9670;&nbsp;</a></span>updateComputationSettings</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;void(float oldValue, <a class="el" href="classtinc_1_1_parameter_space_dimension.html">ParameterSpaceDimension</a> *changedDimension, <a class="el" href="classtinc_1_1_parameter_space.html">ParameterSpace</a> *ps)&gt; tinc::ParameterSpace::updateComputationSettings</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">      [](<span class="keywordtype">float</span> oldValue, ParameterSpaceDimension *changedDimension,</div>
-<div class="line">         <a class="code" href="classtinc_1_1_parameter_space.html#a4eac1c93a11e44710a80871a60352d51">ParameterSpace</a> *ps) {}</div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00260">260</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_parameter_space_8hpp_source.html#l00215">215</a> of file <a class="el" href="_parameter_space_8hpp_source.html">ParameterSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1276,8 +1330,8 @@ Protected Attributes</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclasstinc_1_1_parameter_space_html_ac72ad1e2d517ba1b4b5334ea5cb724ba"><div class="ttname"><a href="classtinc_1_1_parameter_space.html#ac72ad1e2d517ba1b4b5334ea5cb724ba">tinc::ParameterSpace::mCurrentPathTemplate</a></div><div class="ttdeci">std::string mCurrentPathTemplate</div><div class="ttdoc">Stores template to generate current path using resolveFilename()</div><div class="ttdef"><b>Definition:</b> <a href="_parameter_space_8hpp_source.html#l00287">ParameterSpace.hpp:287</a></div></div>
-<div class="ttc" id="aclasstinc_1_1_parameter_space_html_a4eac1c93a11e44710a80871a60352d51"><div class="ttname"><a href="classtinc_1_1_parameter_space.html#a4eac1c93a11e44710a80871a60352d51">tinc::ParameterSpace::ParameterSpace</a></div><div class="ttdeci">ParameterSpace(std::string id=std::string())</div><div class="ttdef"><b>Definition:</b> <a href="_parameter_space_8hpp_source.html#l00050">ParameterSpace.hpp:50</a></div></div>
+<div class="ttc" id="aclasstinc_1_1_parameter_space_html_ac72ad1e2d517ba1b4b5334ea5cb724ba"><div class="ttname"><a href="classtinc_1_1_parameter_space.html#ac72ad1e2d517ba1b4b5334ea5cb724ba">tinc::ParameterSpace::mCurrentPathTemplate</a></div><div class="ttdeci">std::string mCurrentPathTemplate</div><div class="ttdoc">Stores template to generate current path using resolveFilename()</div><div class="ttdef"><b>Definition:</b> <a href="_parameter_space_8hpp_source.html#l00326">ParameterSpace.hpp:326</a></div></div>
+<div class="ttc" id="aclasstinc_1_1_parameter_space_html_a4eac1c93a11e44710a80871a60352d51"><div class="ttname"><a href="classtinc_1_1_parameter_space.html#a4eac1c93a11e44710a80871a60352d51">tinc::ParameterSpace::ParameterSpace</a></div><div class="ttdeci">ParameterSpace(std::string id=std::string())</div><div class="ttdef"><b>Definition:</b> <a href="_parameter_space_8hpp_source.html#l00059">ParameterSpace.hpp:59</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

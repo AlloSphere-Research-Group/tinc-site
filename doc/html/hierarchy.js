@@ -15,12 +15,12 @@ var hierarchy =
     ] ],
     [ "tinc::BufferManager< nlohmann::json >", "classtinc_1_1_buffer_manager.html", [
       [ "tinc::DiskBuffer< nlohmann::json >", "classtinc_1_1_disk_buffer.html", [
-        [ "tinc::JsonDiskBuffer", "classtinc_1_1_json_disk_buffer.html", null ]
+        [ "tinc::DiskBufferJson", "classtinc_1_1_disk_buffer_json.html", null ]
       ] ]
     ] ],
     [ "tinc::BufferManager< std::vector< double > >", "classtinc_1_1_buffer_manager.html", [
       [ "tinc::DiskBuffer< std::vector< double > >", "classtinc_1_1_disk_buffer.html", [
-        [ "tinc::NetCDFDiskBufferDouble", "classtinc_1_1_net_c_d_f_disk_buffer_double.html", null ]
+        [ "tinc::DiskBufferNetCDFDouble", "classtinc_1_1_disk_buffer_net_c_d_f_double.html", null ]
       ] ]
     ] ],
     [ "tinc::CacheManager", "classtinc_1_1_cache_manager.html", null ],
@@ -31,19 +31,19 @@ var hierarchy =
       [ "tinc::TincServer", "classtinc_1_1_tinc_server.html", null ]
     ] ],
     [ "tinc::IdObject", "classtinc_1_1_id_object.html", [
-      [ "tinc::AbstractDiskBuffer", "classtinc_1_1_abstract_disk_buffer.html", [
+      [ "tinc::DataPool", "classtinc_1_1_data_pool.html", null ],
+      [ "tinc::DiskBufferAbstract", "classtinc_1_1_disk_buffer_abstract.html", [
         [ "tinc::DiskBuffer< al::Image >", "classtinc_1_1_disk_buffer.html", null ],
         [ "tinc::DiskBuffer< nlohmann::json >", "classtinc_1_1_disk_buffer.html", null ],
         [ "tinc::DiskBuffer< std::vector< double > >", "classtinc_1_1_disk_buffer.html", null ],
         [ "tinc::DiskBuffer< DataType >", "classtinc_1_1_disk_buffer.html", null ]
       ] ],
-      [ "tinc::DataPool", "classtinc_1_1_data_pool.html", null ],
       [ "tinc::ParameterSpace", "classtinc_1_1_parameter_space.html", null ],
       [ "tinc::Processor", "classtinc_1_1_processor.html", [
-        [ "tinc::ComputationChain", "classtinc_1_1_computation_chain.html", null ],
-        [ "tinc::CppProcessor", "classtinc_1_1_cpp_processor.html", null ],
         [ "tinc::ProcessorAsyncWrapper", "classtinc_1_1_processor_async_wrapper.html", null ],
-        [ "tinc::ScriptProcessor", "classtinc_1_1_script_processor.html", null ]
+        [ "tinc::ProcessorCpp", "classtinc_1_1_processor_cpp.html", null ],
+        [ "tinc::ProcessorGraph", "classtinc_1_1_processor_graph.html", null ],
+        [ "tinc::ProcessorScript", "classtinc_1_1_processor_script.html", null ]
       ] ]
     ] ],
     [ "tinc::InstancingMesh", "structtinc_1_1_instancing_mesh.html", null ],

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['markavailable_535',['markAvailable',['../classtinc_1_1_tinc_protocol.html#a82c11141eee1b9218708e8cb214db60b',1,'tinc::TincProtocol::markAvailable()'],['../classtinc_1_1_tinc_server.html#a17b6667975d1938d28c80f771baf32a9',1,'tinc::TincServer::markAvailable()']]],
-  ['markbusy_536',['markBusy',['../classtinc_1_1_tinc_protocol.html#a2c5e142c1c420b80bf1514153e904711',1,'tinc::TincProtocol::markBusy()'],['../classtinc_1_1_tinc_server.html#a4b6d142119d8786ac147cb8871bb26be',1,'tinc::TincServer::markBusy()']]]
+  ['newdataavailable_535',['newDataAvailable',['../classtinc_1_1_buffer_manager.html#a35c0914b65c1802520b1fa6056a1d965',1,'tinc::BufferManager']]],
+  ['newdimension_536',['newDimension',['../classtinc_1_1_parameter_space.html#a3891d93a0d1b31ee9199230a3c373f18',1,'tinc::ParameterSpace']]],
+  ['nextlayer_537',['nextLayer',['../classtinc_1_1_slicing_atom_renderer.html#a76d51f7c716d619f4e2a11b65ae17307',1,'tinc::SlicingAtomRenderer']]]
 ];

@@ -56,10 +56,10 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_abstract_disk_buffer_8hpp.html",
-"classtinc_1_1_disk_buffer.html#a166ebabdda2ee686cc8f31ae2c9035da",
-"classtinc_1_1_processor.html#afe56e164ce8616ab67eb5029da7f9720",
-"classtinc_1_1_tinc_protocol.html#a20e628cf8cf1443a2b960e044f5e2a7d",
+"_atom_renderer_8hpp.html",
+"classtinc_1_1_image_disk_buffer.html",
+"classtinc_1_1_processor_cpp.html#ac81385132fca86a15598b61252ea403b",
+"classtinc_1_1_tinc_protocol.html#a1f3dac2f1c723ff654ae5711b5fd26bc",
 "functions_~.html"
 ];
 

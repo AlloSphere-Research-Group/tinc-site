@@ -6,7 +6,7 @@ var class_trajectory_render =
     [ "update", "class_trajectory_render.html#ab0667b578c6993002fdb5f34276d9fde", null ],
     [ "writeJson", "class_trajectory_render.html#a8d33962e6c09c9700f85eff0ae6104ce", null ],
     [ "alpha", "class_trajectory_render.html#acd13177126961ef95d5b07011e2b0824", null ],
-    [ "mBuffer", "class_trajectory_render.html#a5b7d0cd4b5204f7d4f3c1d17366c3d91", null ],
+    [ "mBuffer", "class_trajectory_render.html#a91479251a35d31f88e7d807f1928c276", null ],
     [ "mParameters", "class_trajectory_render.html#a702ae16db2586f443d84f5250ef28a60", null ],
     [ "trajectoryWidth", "class_trajectory_render.html#a163623149e91bb0864d42cf3af02d90b", null ]
 ];

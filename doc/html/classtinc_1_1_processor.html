@@ -112,10 +112,10 @@ Inheritance diagram for tinc::Processor:</div>
   <img src="classtinc_1_1_processor.png" usemap="#tinc::Processor_map" alt=""/>
   <map id="tinc::Processor_map" name="tinc::Processor_map">
 <area href="classtinc_1_1_id_object.html" alt="tinc::IdObject" shape="rect" coords="286,0,467,24"/>
-<area href="classtinc_1_1_computation_chain.html" alt="tinc::ComputationChain" shape="rect" coords="0,112,181,136"/>
-<area href="classtinc_1_1_cpp_processor.html" alt="tinc::CppProcessor" shape="rect" coords="191,112,372,136"/>
-<area href="classtinc_1_1_processor_async_wrapper.html" title="Wraps a Processor object to run it asynchronously." alt="tinc::ProcessorAsyncWrapper" shape="rect" coords="382,112,563,136"/>
-<area href="classtinc_1_1_script_processor.html" title="The DataScript class." alt="tinc::ScriptProcessor" shape="rect" coords="573,112,754,136"/>
+<area href="classtinc_1_1_processor_async_wrapper.html" title="Wraps a Processor object to run it asynchronously." alt="tinc::ProcessorAsyncWrapper" shape="rect" coords="0,112,181,136"/>
+<area href="classtinc_1_1_processor_cpp.html" alt="tinc::ProcessorCpp" shape="rect" coords="191,112,372,136"/>
+<area href="classtinc_1_1_processor_graph.html" alt="tinc::ProcessorGraph" shape="rect" coords="382,112,563,136"/>
+<area href="classtinc_1_1_processor_script.html" title="The DataScript class." alt="tinc::ProcessorScript" shape="rect" coords="573,112,754,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -622,7 +622,7 @@ template&lt;class ParameterType &gt; </div>
 <p>override this function to determine how subclasses should process </p>
 <p>You must call <a class="el" href="classtinc_1_1_processor.html#aa36bc0c34b4f0cc41982dcfc2e8770d6" title="Set a function to be called before computing to prepare data.">prepareFunction()</a>, <a class="el" href="classtinc_1_1_processor.html#ac6833484c6563a979fd64172617510ad">callDoneCallbacks()</a> and test for 'enabled' within the <a class="el" href="classtinc_1_1_processor.html#a43fb06180d85b7f0f73b49a13845ac75" title="override this function to determine how subclasses should process">process()</a> function of all child classes. </p>
 
-<p>Implemented in <a class="el" href="classtinc_1_1_cpp_processor.html#a1730c9031d88f0a4f31dfcdcacd42d74">tinc::CppProcessor</a>, <a class="el" href="classtinc_1_1_script_processor.html#aaeddfe1dfb23e0297f6c55f34d16c46c">tinc::ScriptProcessor</a>, <a class="el" href="classtinc_1_1_processor_async_wrapper.html#a300e1b17a3c2475ca3621f80faf220b1">tinc::ProcessorAsyncWrapper</a>, and <a class="el" href="classtinc_1_1_computation_chain.html#abe003d96d543704e030b3843dbc40f2f">tinc::ComputationChain</a>.</p>
+<p>Implemented in <a class="el" href="classtinc_1_1_processor_cpp.html#aa9b188cfe8a57ec8c3d42d765f5d8f35">tinc::ProcessorCpp</a>, <a class="el" href="classtinc_1_1_processor_script.html#afd894d78c4f855964e1e8510a331bd48">tinc::ProcessorScript</a>, <a class="el" href="classtinc_1_1_processor_graph.html#a0a1a857010c1b92d908f3d0e019249f4">tinc::ProcessorGraph</a>, and <a class="el" href="classtinc_1_1_processor_async_wrapper.html#a300e1b17a3c2475ca3621f80faf220b1">tinc::ProcessorAsyncWrapper</a>.</p>
 
 </div>
 </div>

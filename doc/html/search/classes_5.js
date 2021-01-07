@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jsondiskbuffer_408',['JsonDiskBuffer',['../classtinc_1_1_json_disk_buffer.html',1,'tinc']]]
+  ['nc_5fdimension_407',['NC_Dimension',['../structtinc_1_1_n_c___dimension.html',1,'tinc']]]
 ];
