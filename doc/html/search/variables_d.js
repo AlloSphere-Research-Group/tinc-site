@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['trajectorywidth_770',['trajectoryWidth',['../class_trajectory_render.html#a163623149e91bb0864d42cf3af02d90b',1,'TrajectoryRender']]],
-  ['type_771',['type',['../structtinc_1_1_variant_value.html#a28980f99c2d10d629d755bf07d659a34',1,'tinc::VariantValue']]]
+  ['radius_1117',['radius',['../structtinc_1_1_atom_data.html#ab60ed50cf2e242fab70d32251707f52e',1,'tinc::AtomData']]],
+  ['relativepath_1118',['relativePath',['../classtinc_1_1_distributed_path.html#a4b68a8e344d396ff990319cd5cd24abd',1,'tinc::DistributedPath']]],
+  ['rootpath_1119',['rootPath',['../classtinc_1_1_distributed_path.html#ad67d83c13d8cac70a14f97a7be874267',1,'tinc::DistributedPath']]]
 ];

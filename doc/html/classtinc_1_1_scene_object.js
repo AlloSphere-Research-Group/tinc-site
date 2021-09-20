@@ -1,8 +1,9 @@
 var classtinc_1_1_scene_object =
 [
-    [ "SceneObject", "classtinc_1_1_scene_object.html#a6e43e381c76a470c2d8109904bd205bd", null ],
-    [ "registerWithTincServer", "classtinc_1_1_scene_object.html#a8cb02c948c36e2c790df3e8312670cb9", null ],
-    [ "writeJson", "classtinc_1_1_scene_object.html#a8d33962e6c09c9700f85eff0ae6104ce", null ],
-    [ "mBuffer", "classtinc_1_1_scene_object.html#a91479251a35d31f88e7d807f1928c276", null ],
-    [ "mParameters", "classtinc_1_1_scene_object.html#a702ae16db2586f443d84f5250ef28a60", null ]
+    [ "SceneObject", "classtinc_1_1_scene_object.html#a0b61d8cd09406396094a21a4342aff0c", null ],
+    [ "applyTransformations", "classtinc_1_1_scene_object.html#a88d9af6dc3df79aec8f9e357ba7378dd", null ],
+    [ "getData", "classtinc_1_1_scene_object.html#a1110d90da3febb492d258e9a5bee00cc", null ],
+    [ "registerWithTinc", "classtinc_1_1_scene_object.html#a1588986e3605967143475226aef682e4", null ],
+    [ "mBuffer", "classtinc_1_1_scene_object.html#ad6c6296282096942fd33fa6c35cce67b", null ],
+    [ "scale", "classtinc_1_1_scene_object.html#a86d44a0ec006576cae22ead7c565de0a", null ]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['gui_425',['gui',['../namespacetinc_1_1gui.html',1,'tinc']]],
-  ['tinc_426',['tinc',['../namespacetinc.html',1,'']]]
+  ['tinc_630',['tinc',['../namespacetinc.html',1,'']]],
+  ['vis_631',['vis',['../namespacetinc_1_1vis.html',1,'tinc']]]
 ];

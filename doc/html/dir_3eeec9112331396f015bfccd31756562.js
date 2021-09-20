@@ -6,10 +6,11 @@ var dir_3eeec9112331396f015bfccd31756562 =
       [ "AtomRenderer", "classtinc_1_1_atom_renderer.html", "classtinc_1_1_atom_renderer" ],
       [ "SlicingAtomRenderer", "classtinc_1_1_slicing_atom_renderer.html", "classtinc_1_1_slicing_atom_renderer" ]
     ] ],
+    [ "GUI.hpp", "_g_u_i_8hpp.html", "_g_u_i_8hpp" ],
     [ "SceneObject.hpp", "_scene_object_8hpp.html", [
       [ "SceneObject", "classtinc_1_1_scene_object.html", "classtinc_1_1_scene_object" ]
     ] ],
     [ "TrajectoryRender.hpp", "_trajectory_render_8hpp.html", [
-      [ "TrajectoryRender", "class_trajectory_render.html", "class_trajectory_render" ]
+      [ "TrajectoryRender", "classtinc_1_1_trajectory_render.html", "classtinc_1_1_trajectory_render" ]
     ] ]
 ];

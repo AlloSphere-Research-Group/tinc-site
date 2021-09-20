@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tincprotocol_803',['TincProtocol',['../classtinc_1_1_parameter_space_dimension.html#a1076c37cb0148d9553c75174afca46b9',1,'tinc::ParameterSpaceDimension']]]
+  ['swap_1204',['swap',['../classtinc_1_1_source_argument.html#a3e79c9990a763c52276a29471be3ad34',1,'tinc::SourceArgument']]]
 ];

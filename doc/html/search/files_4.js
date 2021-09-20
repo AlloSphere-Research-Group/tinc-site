@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gui_2ehpp_437',['GUI.hpp',['../_g_u_i_8hpp.html',1,'']]]
+  ['eventlogger_2ehpp_646',['EventLogger.hpp',['../_event_logger_8hpp.html',1,'']]]
 ];
