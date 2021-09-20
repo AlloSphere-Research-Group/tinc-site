@@ -1,17 +1,20 @@
-## TINC (Toolkit for Interactive Computation
+## TINC (The Toolkit for Interactive Computation)
+
+The [Toolkit for Interactive Computation (TINC)](https://github.com/AlloSphere-Research-Group/tinc) provides a set of C++ and python classes to assist in the interactive exploration of large datasets by managing parameter spaces, interactive computation and caching of data.
+
+[TINC](https://github.com/AlloSphere-Research-Group/tinc) allows exposing C++ application controls to the network. This simplifies the development of distributed applications as well as creating applications that can be controlled trhrough python without having the application itself depend on python. A great use case is by interacting with the C++ application through a jupyter notebook.
+
+TINC can also be used standalone in python to assist exploration of complex datasets that are spread out through the filesystem through interactive computation prototyping.
+
+## Documentation
 
  [API documentation](doc/html/index.html)
 
-
  ## Tutorials
 
- List tutorials here
+
 
  ## Example applications
 
  CASM viewer
 
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AlloSphere-Research-Group/tinc-site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
