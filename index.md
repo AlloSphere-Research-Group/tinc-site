@@ -8,7 +8,9 @@ TINC can also be used standalone in python to assist exploration of complex data
 
 ## Documentation
 
- [API documentation](doc/html/index.html)
+ [C++ API documentation](doc/html/index.html)
+ 
+ [Python API documentation](doc/python/html/index.html)
 
  ## Tutorials
 
