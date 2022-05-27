@@ -1,8 +1,10 @@
+.. _TINCClasses:
+
 TINC Object classes
 ===================
 
 Parameter Classes
----------------------
+-----------------
 
 .. automodule:: tinc.parameter
    :members:
