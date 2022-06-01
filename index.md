@@ -10,7 +10,7 @@ TINC can also be used standalone in python to assist exploration of complex data
 
  [C++ API documentation](doc/html/index.html)
  
- [Python API documentation](doc/python/html/index.html)
+ [Python API documentation](https://tinc-python.readthedocs.io/en/latest/)
 
  ## Tutorials
 
