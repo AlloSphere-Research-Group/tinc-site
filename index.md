@@ -12,11 +12,16 @@ TINC can also be used standalone in python to assist exploration of complex data
  
  [Python API documentation](https://tinc-python.readthedocs.io/en/latest/)
 
+ The cache metadata schema can be found [here](https://github.com/AlloSphere-Research-Group/tinc/blob/main/doc/tinc_cache_schema.json). The network protocol used for client/server communication uses protobuf and is defined [here](https://github.com/AlloSphere-Research-Group/tinc/blob/main/src/tinc_protocol.proto).
+
  ## Tutorials
 
+The [Python API documentation](https://tinc-python.readthedocs.io/en/latest/) contains a set of introductory tutorials to tinc-python. These tutorials focus on usage of TINC in python without requring a C++ server.
+
+The C++ source tree contains a number of small [examples](https://github.com/AlloSphere-Research-Group/tinc/tree/main/examples) that explore the different functionality of the C++ version of TINC
 
 
  ## Example applications
 
- CASM viewer
+[CASM viewer](https://github.com/AlloSphere-Research-Group/casm_viewer) is a large application written using the TINC toolkit, that can display and annotate CASM datasets. It can also be used as a blank canvas for 3D visualization through python notebooks for desktops and immersive environments. 
 
