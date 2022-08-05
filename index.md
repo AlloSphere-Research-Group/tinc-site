@@ -14,7 +14,7 @@ TINC can also be used standalone in python to assist exploration of complex data
 
  The cache metadata schema can be found [here](https://github.com/AlloSphere-Research-Group/tinc/blob/main/doc/tinc_cache_schema.json). The network protocol used for client/server communication uses protobuf and is defined [here](https://github.com/AlloSphere-Research-Group/tinc/blob/main/src/tinc_protocol.proto).
 
- ## Tutorials
+## Tutorials
 
 The [Python API documentation](https://tinc-python.readthedocs.io/en/latest/) contains a set of introductory tutorials to tinc-python. These tutorials focus on usage of TINC in python without requring a C++ server.
 
