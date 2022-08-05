@@ -21,7 +21,7 @@ The [Python API documentation](https://tinc-python.readthedocs.io/en/latest/) co
 The C++ source tree contains a number of small [examples](https://github.com/AlloSphere-Research-Group/tinc/tree/main/examples) that explore the different functionality of the C++ version of TINC
 
 
- ## Example applications
+## Example applications
 
 [CASM viewer](https://github.com/AlloSphere-Research-Group/casm_viewer) is a large application written using the TINC toolkit, that can display and annotate CASM datasets. It can also be used as a blank canvas for 3D visualization through python notebooks for desktops and immersive environments. 
 
